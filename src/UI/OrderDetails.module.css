@@ -1,0 +1,21 @@
+.orderdetailstyle li{
+    list-style-type: none;
+}
+
+.orderdetailstyle span{
+    font-weight: bold;
+}
+
+.bookliststyle{
+    margin-left: 25px;
+}
+
+.userlist{
+    background-color: blanchedalmond;
+    border: 1px solid black;
+    margin-bottom: 25px;
+    height:auto;
+    box-sizing: border-box;
+    border-radius: 15px;
+    padding: 20px;
+}

@@ -1,0 +1,94 @@
+.adminLoginHeader{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.loginpage{
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+    height: 30vh;
+    width: 90%;
+    margin: auto;
+}
+
+.loginhead{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: rgb(101, 231, 101);
+    height: 15%;
+}
+
+ .formcontainer{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.formcontainer input{
+    margin: 8px 0;
+}
+
+.formcontainer div{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    text-align: center;
+    width: 100%;
+}
+
+.formcontainer div span{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+button{
+    margin-top: 10px;
+    width: auto;
+}
+
+
+@media screen and (max-width:800px) and (min-width:500px)
+{
+    .adminLoginHeader{
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 60%;
+        height: auto;
+        margin: auto;
+        /* background-color: red; */
+    }
+}
+
+@media screen and (min-width:801px)
+{
+    .adminLoginHeader{
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 40%;
+        height: auto;
+        margin: auto;
+        /* background-color: red; */
+        /* background-color: red; */
+    }
+}

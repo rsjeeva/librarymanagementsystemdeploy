@@ -1,0 +1,30 @@
+.bookliststyle{
+    list-style-type: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    padding: 25px;
+    background-color: blanchedalmond;
+    
+}
+
+.bookliststyle div{
+    font-weight: bold;
+}
+
+.bookliststyle div span{
+    font-weight: lighter;
+}
+
+.editbtn{
+    width: auto;
+    outline: none;
+}
+
+.editbtn:hover{
+    cursor: pointer;
+    background-color: black;
+    color:white;
+    outline: none;
+}

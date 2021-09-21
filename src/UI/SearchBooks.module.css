@@ -1,0 +1,30 @@
+.searchbooks{
+    /* border: 1px solid black; */
+    width: 100%;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 100%;
+    height: auto;
+}
+
+ form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 100%;
+    /* border:1px solid black; */
+} 
+
+form input{
+    width: 100%;
+    outline: none;
+}
+
+.booklist{
+    height: auto;
+    width: 100%;
+    /* border: 1px solid black; */
+    box-sizing: border-box;
+}
